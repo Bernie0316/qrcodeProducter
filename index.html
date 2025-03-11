@@ -7,6 +7,7 @@
 </head>
 <body>
     <h2>Wi-Fi QR Code 生成器</h2>
+    <p>(qrcode顏色logo和網頁排版稍後補上🙏)</p>
     <input type="text" id="ssid" placeholder="輸入 Wi-Fi 名稱">
     <input type="password" id="password" placeholder="輸入 Wi-Fi 密碼">
     <button onclick="generateQRCode()">生成 QR Code</button>
@@ -24,6 +25,8 @@
 
             const qrImage = document.getElementById("qrImage");
             qrImage.src = `https://blablabernie.pythonanywhere.com/generate_qr?ssid=${encodeURIComponent(ssid)}&password=${encodeURIComponent(password)}`;
+            // const url = `https://blablabernie.pythonanywhere.com/generate_qr?ssid=${ssid}&password=${password}`;
+
             qrImage.style.display = "block";
         }
     </script>
