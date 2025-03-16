@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+    <body>
+        <form>
+            <h1>Wifi QR-code 生產器</h1>
+            <canvas class="qr-canvas"></canvas> <!-- 用 Canvas 來合成 QR Code + Logo -->
+
+            <fieldset class="input">
+                <label>Wifi Name<input class="ssid" placeholder="Wifi network name"></label>
+                <label>Wifi Password<input class="password" placeholder="Password"></label>
+            </fieldset>
+            
+            <p>用相機掃描QR code來連接Wifi</p>
+            <button type="button">Print Wifi Card</button>
+        </form>
+        <script src="script/script.js"></script>
+    </body>
+</html>
