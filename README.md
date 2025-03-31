@@ -1,5 +1,8 @@
 這是一個設計給我上班公司的Wifi QRcode 生成程式，只需要在終端輸入Wifi SSID跟密碼就能生成Wifi QRcode
 
+2025/3/30 更：
+目前主頁保留pythonanywhere 架構，建置後端py程式碼，另外再創闖建了JS版，JS版已能完美運行，py版還是一樣的問題。
+
 2025/3/11 更：
 目前使用pythonanywhere 建置後端py程式碼，前端html放在這，目前除了logo還無法貼上qucode之外，其他功能已經能正常運作。
 
